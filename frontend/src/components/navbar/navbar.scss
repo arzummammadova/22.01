@@ -1,0 +1,60 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0rem;
+    font-size: 17px
+}
+
+#nav{
+    background-color: white;
+    // position: relative;
+   
+}
+
+.nav-links ul {
+    display: flex;
+    gap: 1rem ;
+    font-size: 17px
+}
+
+body{
+    font-size: 17px
+}
+
+
+.actions ul {
+    display: flex;
+    gap: 1rem ;
+    font-size: 17px
+}
+
+a{
+    font-size: 17px
+}
+
+@media (max-width:992px) {
+    .nav-links{
+        display: none;
+    }
+  
+    .p-card{
+
+       width: calc(100%/2 - 2rem)!important;
+        
+
+    }
+}
+
+@media (max-width:756px) {
+    .right{
+        display: none;
+    }
+    .p-card{
+
+        width:100%!important;
+        
+
+    }
+}
+
+

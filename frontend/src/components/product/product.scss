@@ -1,0 +1,38 @@
+.titles{
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+
+    h2{
+        font-size: 3rem;
+    }
+    P{
+        color: grey;
+    }
+}
+
+.container-p{
+    max-width: 65%;
+    margin: 0 auto;
+}
+
+.pro-cards{
+    display: flex;
+   flex-wrap: wrap;
+    gap: 3rem;
+    .pro-card{
+ position: relative;
+        width: calc(100%/3 - 3rem );
+
+    }
+
+    
+
+
+}
+
+.heart{
+    position: absolute;
+    top: 6px;
+    right: 10px;
+}
